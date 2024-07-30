@@ -1,0 +1,33 @@
+{
+    "contractName": "Counter",
+    "address": "0xC7D57cA34ab883368EC70894dE7A5E8f23dEdaB0",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "decrementCounter",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getCount",
+            "outputs": [
+                {
+                    "internalType": "int256",
+                    "name": "",
+                    "type": "int256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "incrementCounter",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ]
+}
